@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+}
+a{
+
+}
+nav {
+    display: block;
+    width: 240px;
+    margin: 0 auto 0px;
+    padding-top: 1em;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.pic{
+    float: left;
+    width: 160px;
+}
+.content{
+    display: block;
+    width: 600px;
+    margin: 0 auto 30px;
+}
+.text1{
+    list-style-type: none;
+    color: white;
+    background-color: rgba(237, 28, 36, 125);
+    width: 440px;
+    height: 149px;
+    text-align: justify;
+    font-family: Arial;
+    font-size: 13pt;
+}
+.text2{
+    list-style-type: none;
+    color: dimgray;
+    background-color: yellow;
+    width: 440px;
+    font-family: Arial;
+    font-size: 13pt;
+    text-align: justify;
+}
+.text3{
+    list-style-type: none;
+    color: white;
+    background-color: forestgreen;
+    width: 440px;
+    font-family: Arial;
+    font-size: 13pt;
+    text-align: justify;
+}
+.text4{
+    list-style-type: none;
+    color: grey;
+    background-color: pink;
+    width: 440px;
+    font-family: Arial;
+    font-size: 13pt;
+    text-align: justify;
+}
+.button:hover{
+    transform: scale(1.1);
+}
